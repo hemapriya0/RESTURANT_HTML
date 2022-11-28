@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LOGIN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style type ="text/css">
+
+
+/* The horizontal line on the top of the device */
+.container:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.container:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+    .container{
+      width:300px;padding:150px 10px;float:center;
+    }
+  </style>
+  
+</head>
+<body>
+
+<div class="container">
+  background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');  
+ <h4>Welcome to cascade Restaurant :)</h4>
+  <label for ="login">USER NAME</label>
+    <input type="text"id="login"name="USER NAME">
+  
+      
+  
+       <label for ="pwd">PASSWORD</label>
+        <input type="text"id="pwd"name="PASSWORD">
+       
+        <button type ="login" onclick="window.location.href='HOME PAGE.html';" class="btn btn-warning btn-lg"value="HOME">LOGIN</button>
+</form>
+</div>
+
+</table>
+</body>
+</html>
